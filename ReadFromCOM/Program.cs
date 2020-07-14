@@ -18,7 +18,7 @@ namespace ReadFromCOM
                 if (args[0].Contains("COM"))
                 {
                     //We know there's a COM port being passed
-             //       ConnectAndRead(new SerialPort(args[0]));
+                    ConnectAndRead(new SerialPort(args[0]));
                 }
                 else
                 {
